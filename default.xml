@@ -6,6 +6,11 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
+  <remote  name="sduzz"
+           fetch="https://github.com/sduzz"
+		   revision="quartz" />
+
+
   <remote  name="private"
            fetch="ssh://git@git.aospa.co/AOSPA" />
 
@@ -837,6 +842,6 @@
   <include name="manifests/obsolete.xml"/>
 
   <!-- Paranoid Android additions -->
-  <include name="manifests/aospa.xml"/>
+  <include name="manifests/dark.xml"/>
 
 </manifest>
